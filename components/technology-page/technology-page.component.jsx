@@ -51,6 +51,7 @@ const TechnlogyPage = () => {
                             width = '400px' 
                             height='400px' 
                             objectFit="contain" placeholder="blurDataUrl"
+                            alt = {info.information[index].name}
                         />
                     </div>
                 </div>

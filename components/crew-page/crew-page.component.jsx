@@ -25,10 +25,6 @@ const CrewPage = () => {
         setIsLoading(false);
     }, [])
 
-    useEffect(() => {
-        console.log(info);
-    }, [info]);
-
     return(
         <>
         {!isLoading ? (
@@ -51,6 +47,7 @@ const CrewPage = () => {
                         width = '850px' 
                         height='1263px' 
                         objectFit="fill" placeholder="blurDataUrl"
+                        alt = {info.information[index].name}
                     />
                 </div>
             </div>

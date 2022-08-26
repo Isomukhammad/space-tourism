@@ -2,7 +2,6 @@ import styles from './page-buttons.module.scss';
 
 const PageButtons = ({index, setIndex, info, path}) => {
     const {information} = info;
-    console.log(information);
 
     return(
         <div className={`${path == 'technology' ? styles.buttonstechnology : styles.buttons}`}>

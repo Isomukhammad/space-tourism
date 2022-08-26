@@ -1,0 +1,36 @@
+.categories{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    width: 60vw;
+    
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(50px);
+    letter-spacing: 2px;
+    white-space: 1em;
+    word-spacing: .3em;
+
+    &::before{
+        content: "";
+        background-color: #fff;
+        height: 1px;
+        opacity: .25;
+        position: absolute;
+        width: 30vw;
+        right: 59vw;
+    }
+
+    .span{
+        font-weight: 700;
+    }
+
+    .link{
+        padding: 2em 0;
+    }
+
+    .active {
+        border-bottom: 1px solid white;
+    }
+}

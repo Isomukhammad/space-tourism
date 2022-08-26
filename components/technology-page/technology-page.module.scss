@@ -1,0 +1,25 @@
+.div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5em 10em;
+    gap: 5em;
+    height: 100%;
+
+    .first {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .button{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2em;
+        }
+    }
+
+    .second {
+        display: flex;
+        justify-content: center;
+    }
+}

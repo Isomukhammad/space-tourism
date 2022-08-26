@@ -1,0 +1,9 @@
+.destination{
+    background-image: url('../public/destination/background-destination-desktop.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10em;
+    height: 100vh;
+}

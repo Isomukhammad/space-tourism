@@ -1,0 +1,11 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    font-size: 1.7em;
+    font-weight: 300;
+
+    .number{
+        opacity: .4;
+    }
+}

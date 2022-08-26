@@ -1,0 +1,65 @@
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    gap: 2em;
+    color: #d0d6f9;
+    position: relative;
+
+    .cursor{
+        cursor: pointer;
+    }
+
+    .planets{
+        text-transform: uppercase;
+        opacity: .8;
+        padding: 1em 0;
+
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.103);
+        }
+    }
+
+    .active {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.795);
+    }
+
+    .crewactive{
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .crew{
+        content: '';
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: rgba(255, 255, 255, 0.186);
+    }
+}
+
+.buttonstechnology{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    gap: 2em;
+    color: #d0d6f9;
+    position: relative;
+
+    .technology{ 
+        border: 1px solid rgba(255, 255, 255, 0.186);
+        padding: 1em 1.4em;
+        position: relative;
+        border-radius: 50%;
+    }
+
+    .technologyactive{
+        background: white;
+        border-radius: 50%;
+        color: black;
+    }
+}

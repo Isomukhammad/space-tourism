@@ -1,0 +1,10 @@
+.technology {
+    background-image: url('../public/technology/background-technology-desktop.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10em;
+    height: 100vh;
+}

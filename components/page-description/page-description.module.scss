@@ -1,0 +1,56 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em 0;
+    width: 100%;
+
+    .role {
+        font-size: 2em;
+        text-transform: uppercase;
+        font-family: Bellefair;
+        font-weight: 300;
+        color: #d0d6f9;
+    }
+
+    .title{
+        font-size: 5em;
+        text-transform: uppercase;
+    }
+
+    .biotitle{
+        font-size: 4em;
+    }
+
+    .info{
+        color: #d0d6f9;
+        height: 200px;
+        font-size: 1.4em;
+        line-height: 1.5em;
+        font-weight: 300;
+    }
+    
+    .additional{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 3em;
+        padding: 1em 0;
+        border-top: 1px solid #d0d6f949;
+
+        .subheading{
+            color: #d0d6f9;
+            font-weight: 300;
+            font-size: 1.2em;
+        }
+
+        .number{
+            text-transform: uppercase;
+            font-family: Bellefair;
+            font-size: 1.6em;
+            font-weight: 300;
+        }
+    }
+}

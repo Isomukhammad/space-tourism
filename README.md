@@ -6,4 +6,4 @@ Space Tourism website from [Frontend Mentor](https://www.frontendmentor.io/chall
 
 ## Preview
 
-[!Project preview](/public/preview.jpg)
+![Project preview](./public/preview.jpg)

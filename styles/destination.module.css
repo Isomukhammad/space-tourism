@@ -13,3 +13,9 @@
         background-image: url('../public/destination/background-destination-mobile.jpg');
     }
 }
+
+@media screen and (max-width: 480px) and (max-width: 768px){
+    .crew{
+        background-image: url('../public/destination/background-destination-tablet.jpg');
+    }
+}

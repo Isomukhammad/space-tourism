@@ -1,9 +1,21 @@
 .crew{
-    background-image: url('../public/crew/background-crew-desktop.jpg');
+    background-image: url('../public/destination/background-destination-desktop.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10em;
-    height: 100vh;
+    height: 100%;
+}
+
+@media screen and (max-width: 480px){
+    .crew{
+        background-image: url('../public/crew/background-crew-mobile.jpg');
+    }
+}
+
+@media screen and (max-width: 480px) and (max-width: 768px){
+    .crew{
+        background-image: url('../public/crew/background-crew-tablet.jpg');
+    }
 }

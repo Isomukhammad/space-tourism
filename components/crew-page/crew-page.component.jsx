@@ -45,8 +45,8 @@ const CrewPage = () => {
                     <Image
                         className = {styles.image} 
                         src = {info.information[index].images.png} 
-                        width = '850px' 
-                        height='1263px' 
+                        width = '514' 
+                        height='700px' 
                         objectFit="fill" placeholder="blurDataUrl"
                         alt = {info.information[index].name}
                     />

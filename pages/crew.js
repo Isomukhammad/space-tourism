@@ -9,7 +9,6 @@ const Crew = () => {
             <Head>
                 <title>Crew</title>
             </Head>
-
             <CrewPage/>
         </div>
     )

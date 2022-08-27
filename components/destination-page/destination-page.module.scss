@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: flex-start;
-    padding: 5em 10em;
-    height: 100%;
+    padding: 0 10em;
     gap: 5em;
 
     .first{
@@ -29,5 +28,14 @@
             -webkit-transform: rotate(360deg); 
             transform:rotate(360deg); 
         } 
+    }
+
+    @media screen and (max-width: 768px){
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        gap: 1em;
+        padding: 5em 0;
+        height: 100%;
     }
 }

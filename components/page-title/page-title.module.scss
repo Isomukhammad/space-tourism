@@ -4,8 +4,30 @@
     gap: 1em;
     font-size: 1.7em;
     font-weight: 300;
+    align-self: flex-start;
+    margin: 2em 0 3em 7em;
 
     .number{
+        font-weight: 700;
+        letter-spacing: .15em;
         opacity: .4;
+    }
+    
+    .description{
+        letter-spacing: .2em;
+    }
+
+    @media screen and (max-width: 480px){
+        margin: 0;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 768px){
+        margin: 0;
+        justify-content: center;
+        width: 100%;
     }
 }

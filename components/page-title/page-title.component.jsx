@@ -13,7 +13,7 @@ const PageTitle = ({info}) => {
         <>
         <div className={styles.title}>
             <span className={styles.number}>0{id}</span> 
-            <span>{title[id].description}</span> 
+            <span className={styles.description}>{title[id].description}</span> 
         </div>
         </>
     )

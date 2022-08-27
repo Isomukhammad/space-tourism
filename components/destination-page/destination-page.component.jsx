@@ -29,16 +29,18 @@ const DestinationPage = () => {
     return(
         <>
         { !isLoading ? (
+            <>
+            <PageTitle info = {info}/>
             <div className = {styles.div}>
                 <div className = {styles.first}>
-                    <PageTitle info = {info}/>
                     <Image 
                         className = {styles.image} 
                         src = {info.information[index].images.png} 
+                        alt = {info.information[index].name}
                         width = '400px' 
                         height='400px' 
-                        objectFit="contain" placeholder="blurDataUrl"
-                        alt = {info.information[index].name}
+                        objectFit="contain" 
+                        placeholder = "blurDataURL"
                     />
                 </div>
 
@@ -52,6 +54,7 @@ const DestinationPage = () => {
                     <PageDescription info = {info} index = {index}/>
                 </div>
             </div>
+            </>
         ) : null
         }
         </>

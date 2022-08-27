@@ -5,5 +5,11 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10em;
-    height: 100vh;
+    height: 100%;
+}
+
+@media screen and (max-width: 480px){
+    .destination{
+        background-image: url('../public/destination/background-destination-mobile.jpg');
+    }
 }

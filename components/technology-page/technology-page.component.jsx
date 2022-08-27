@@ -29,10 +29,10 @@ const TechnlogyPage = () => {
         <>
         {
             !isLoading ? (
+                <>
+                <PageTitle info = {info}/>
                 <div className = {styles.div}>
                     <div className = {styles.first}>
-                        <PageTitle info = {info}/>
-
                         <div className={styles.button}>
                             <PageButtons
                                 setIndex={setIndex}
@@ -55,6 +55,7 @@ const TechnlogyPage = () => {
                         />
                     </div>
                 </div>
+                </>
             ) : null
         }
         </>

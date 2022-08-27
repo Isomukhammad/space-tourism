@@ -28,9 +28,10 @@ const CrewPage = () => {
     return(
         <>
         {!isLoading ? (
+            <>
+            <PageTitle info = {info}/>
             <div className={styles.div}>
                 <div className={styles.first}>
-                    <PageTitle info = {info}/>
                     <PageDescription info = {info} index = {index}/>
                     <PageButtons 
                         setIndex={setIndex}
@@ -51,6 +52,7 @@ const CrewPage = () => {
                     />
                 </div>
             </div>
+            </>
         ) : (
             null
         )}

@@ -53,4 +53,23 @@
             font-weight: 300;
         }
     }
+
+    @media screen and (max-width: 768px){
+        align-items: center;
+        
+        .info{
+            text-align: center;
+            font-size: 1.2em;
+            height: 120px;
+        }
+
+        .additional{
+            flex-direction: column;
+            text-align: center;
+            margin-top: 3em;
+            padding: 1em 0;
+            width: 100%;
+            border-top: 1px solid #d0d6f949;
+        }
+    }
 }

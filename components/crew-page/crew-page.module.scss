@@ -1,12 +1,12 @@
 .div{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 80vh;
+    height: 100%;
     
     .first{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         margin-bottom: 5em;
         padding-left: 10em;
     }
@@ -15,9 +15,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 700px;
+        height: 600px;
         padding: 0 5em;
-        width: 514px;
+        width: 414px;
         border-bottom: 1px solid #d0d6f949;
     }
 
@@ -39,6 +39,7 @@
             display: flex;
             flex-direction: row;
             justify-content: flex-end;
+            align-self: center;
             height: 400px;
             width: 264px;
             
@@ -56,6 +57,7 @@
             display: flex;
             flex-direction: row;
             justify-content: flex-end;
+            align-items: center;
             height: 400px;
             width: 264px;
         }

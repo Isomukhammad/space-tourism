@@ -9,7 +9,9 @@ const PageDescription = ({index, info}) => {
     return(
         <div className={styles.div}>
             <div className={styles.role}>{role}</div>
+            
             <div className={`${styles.title} ${bio ? styles.biotitle : null}`}>{name}</div>
+            
             <div className={styles.info}>
                 {`${
                     description ? description : null 

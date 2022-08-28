@@ -34,13 +34,15 @@ const TechnlogyPage = () => {
                 <div className = {styles.div}>
                     <div className = {styles.first}>
                         <div className={styles.button}>
+                            <div className={styles.buttons}>
                             <PageButtons
                                 setIndex={setIndex}
                                 info = {info}
                                 index = {index}
                                 path = 'technology'
                             />
-                            <PageDescription info = {info} index = {index} />
+                            </div>
+                            <PageDescription info = {info} index = {index}/>
                         </div>
                     </div>
         
@@ -50,7 +52,7 @@ const TechnlogyPage = () => {
                             src = {info.information[index].images.portrait} 
                             width = '400px' 
                             height='400px' 
-                            objectFit="contain" placeholder="blurDataUrl"
+                            objectFit="cover" placeholder="blurDataUrl"
                             alt = {info.information[index].name}
                         />
                     </div>

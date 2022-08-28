@@ -62,4 +62,14 @@
         border-radius: 50%;
         color: black;
     }
+
+    @media screen and (max-width: 1024px){
+        flex-direction: row;
+        gap: .8em;
+
+        .technology{
+            padding: .5em .9em;
+            cursor: pointer;
+        }
+    }
 }

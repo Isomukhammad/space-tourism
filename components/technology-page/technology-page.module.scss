@@ -1,25 +1,62 @@
 .div{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 5em 10em;
-    gap: 5em;
-    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
 
     .first {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        
         .button{
+            margin: 3em 3em 0 3em;
             height: 100%;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 2em;
+            text-align: center;
+            // gap: 2em;
         }
     }
 
     .second {
         display: flex;
         justify-content: center;
+        width: 100%;
+        height: 300px;
+        margin-top: 2em;
+    }
+
+    @media screen and (min-width: 1025px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 10em;
+        gap: 5em;
+
+        .first{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .button{
+                margin-top: 0em;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                gap: 2em;
+                text-align: left;
+
+                .buttons{
+                    margin: 3.5em 0 0 0;
+                }
+            }
+        }
+
+        .second{
+            display: flex;
+            justify-content: flex-start;
+            height: 100%;
+        }
     }
 }
